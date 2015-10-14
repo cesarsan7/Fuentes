@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+A continuación se realiza la descripción de cada uno de los elementros que componen un Mensaje:
+<MensajeID>:Corresponde al Id del mensaje que se quiere consultar, debe ser un número entero.
+<MensajeDescripcion>: Corresponde al mensaje que se le mostrará al usuario.
+<MensajeLog>: Corresponde al mensaje que se almacena en el Log cuando el proyecto lo tenga, puede ser un error técnico o un mensaje que se desee almacenar.
+<Exito>: Determina si el mensaje es un error o un mensaje informativo. true - Mensaje informativo o false - Mensaje de error.
+-->
+<DataMensajes>
+  <Mensaje>
+    <!--El Tag correspondiente al Mensaje con ID 0 debe estar fijo en el archivo, ya que corresponde al mensaje genérico del componente.
+    Estos deben estar siempre en el archivo, se pueden modificar todos los valores excepto el ID definido-->
+    <MensajeID>0</MensajeID>
+    <MensajeDescripcion>Error General.</MensajeDescripcion>
+    <MensajeLog>Error General.</MensajeLog>
+    <Exito>false</Exito>
+  </Mensaje>
+  <!--Fin de los mensajes del componente.-->
+
+  <!--Mensajes del Proyecto.-->
+  <Mensaje>
+    <MensajeID>1</MensajeID>
+    <MensajeDescripcion>La operación se realizo con exito.</MensajeDescripcion>
+    <MensajeLog>La operación se realizo con exíto</MensajeLog>
+    <Exito>true</Exito>
+  </Mensaje>
+  <Mensaje>
+    <MensajeID>2</MensajeID>
+    <MensajeDescripcion>La operación  no tuvo  exito.</MensajeDescripcion>
+    <MensajeLog>La operación  no tuvo  exíto.</MensajeLog>
+    <Exito>false</Exito>
+    <!--Fin de los mensajes del Proyecto-->
+  </Mensaje>
+  <Mensaje>
+    <MensajeID>3</MensajeID>
+    <MensajeDescripcion>El registro que intenta crear ya existe en  el sistema.</MensajeDescripcion>
+    <MensajeLog>El registro que intenta crear ya existe en  el sistema.</MensajeLog>
+    <Exito>false</Exito>
+    <!--Fin de los mensajes del Proyecto-->
+  </Mensaje>
+  <Mensaje>
+    <MensajeID>4</MensajeID>
+    <MensajeDescripcion>Se debe relacionar Servicios a la tabla .</MensajeDescripcion>
+    <MensajeLog>Se debe relacionar Servicios a la Tabla .</MensajeLog>
+    <Exito>false</Exito>
+    <!--Fin de los mensajes del Proyecto-->
+  </Mensaje>
+  <Mensaje>
+    <MensajeID>547</MensajeID>
+    <MensajeDescripcion>Se presento un error de integridad en la Base de Datos</MensajeDescripcion>
+    <MensajeLog>Error por integridad Referencial:</MensajeLog>
+    <Exito>false</Exito>
+    <!--Fin de los mensajes del Proyecto-->
+  </Mensaje>
+</DataMensajes>

@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="DGSRestServices.Service.DGSWCFService" CodeBehind="DGSWCFService.svc.cs" %>
